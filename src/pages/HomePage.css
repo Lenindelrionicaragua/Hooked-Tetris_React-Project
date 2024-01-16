@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Zen Antique", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background: linear-gradient(to bottom right, #83bafc, #d2a4ca);
+  min-height: 100vh;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.home-page-container {
+  background: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.game-title,
+.home-page-title,
+.intro-paragraph {
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.game-title {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.home-page-title {
+  font-size: 1.5em;
+}
+
+.intro-paragraph {
+  font-size: 1.2em;
+  text-align: justify;
+  width: 1000px;
+}
+
+button {
+  background-color: #7c8ad4;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  width: auto;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6c7ac3;
+}
+
+.play-button {
+  width: 100%;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #7c8ad4;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-size: 1.2em;
+
+  transition: border-color 0.3s;
+  color: #7c8ad4;
+}
+
+input::placeholder {
+  font-size: 0.8em;
+  color: #acc1ec;
+}
+
+input:focus {
+  border-color: #fae8eb;
+}
+
+input:not(:placeholder-shown) {
+  border-color: #d49bc4;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .game-title {
+    font-size: 2.6em;
+    text-transform: uppercase;
+  }
+
+  .home-page-title {
+    font-size: 1.3em;
+  }
+
+  .intro-paragraph {
+    font-size: 1.1em;
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .game-title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+  }
+
+  .home-page-title {
+    font-size: 1.1em;
+  }
+
+  .intro-paragraph {
+    font-size: 1em;
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .intro-paragraph {
+    .game-title {
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+    .home-page-title {
+      font-size: 1em;
+    }
+  }
+}

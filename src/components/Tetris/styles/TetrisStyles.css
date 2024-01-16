@@ -1,0 +1,113 @@
+.StyledTetrisWrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #83bafc, #d2a4ca);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.StyledTetris {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 900px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: none;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.StyledTetris aside {
+  width: 200px;
+  display: block;
+  padding: 0 20px;
+  background: none;
+  margin-right: 0px;
+}
+
+.game-title {
+  font-family: "Zen Antique", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  margin: 10px;
+  letter-spacing: 3px;
+}
+
+.HomeButton {
+  margin-bottom: 10px;
+}
+
+.container-info-display {
+  display: flex;
+
+  place-items: center;
+  width: 300px;
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+  height: 500px;
+  background-color: rgba(172, 193, 236, 0.2);
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.main-container p {
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.hook-info-display {
+  max-width: 100%; /* Ajusta según el tamaño deseado */
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 420px;
+  margin: 0px;
+  padding: 20px;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .StyledTetris {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .StyledTetris aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: none;
+    padding: px;
+    margin-top: 0px;
+  }
+
+  .game-title {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+}

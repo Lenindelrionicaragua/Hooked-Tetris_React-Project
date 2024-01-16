@@ -1,0 +1,36 @@
+.avatar-container-tetris {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  max-width: 200px;
+  margin: auto;
+  background-color: #acc1ec;
+  padding: 20px 20px 0px 20px;
+  border-radius: 0px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.avatar-image-tetris {
+  background-color: #fff;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.avatar-text-tetris {
+  font-family: "Pacifico", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  transition: font-size 0.3s ease-in-out;
+  transform-origin: 50% 50%;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  margin: 0px 10px 0px 10px;
+  color: #fff;
+}
