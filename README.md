@@ -4,6 +4,10 @@ Hooked Tetris is a single-page application aimed at creating an interactive and 
 
 https://hooked-tetris-react-project.vercel.app/
 
+![HomePage](https://github.com/Lenindelrionicaragua/Hooked-Tetris_React-Project/assets/142052112/83439f79-2e3c-4f30-a343-8efc7aa48ab9)
+![GamePage](https://github.com/Lenindelrionicaragua/Hooked-Tetris_React-Project/assets/142052112/dabb0600-fd65-4d56-b988-498eb4220ded)
+
+
 ## Pages
 
 Hooked Tetris consists of 2 pages (routes):
