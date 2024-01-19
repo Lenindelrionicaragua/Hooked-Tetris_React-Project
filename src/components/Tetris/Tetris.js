@@ -7,7 +7,7 @@ import { createStage, checkCollision } from "../../gameHelpers";
 import "../../components/Tetris/styles/AvatarTetris.css";
 import "../../components/Tetris/styles/TetrisStyles.css";
 import { StyledTetrisWrapper, StyledTetris } from "./styles/StyledTetris";
-
+import RainbowText from "./../RainbowText/RainbowText";
 // Custom Hook
 import { useUser } from "../../context/UserContext";
 
@@ -168,7 +168,9 @@ const Tetris = () => {
       onKeyDown={(e) => move(e)}
       onKeyUp={keyUp}
     >
-      <h1 className="game-title">Hooked Tetris</h1>
+      <h1 className="game-title">
+        <RainbowText text="Hooked Tetris" />
+      </h1>
       <StyledTetris className="StyledTetris">
         <Stage stage={stage} />
         <aside>

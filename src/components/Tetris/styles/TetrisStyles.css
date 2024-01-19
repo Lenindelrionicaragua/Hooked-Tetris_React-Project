@@ -1,7 +1,7 @@
 .StyledTetrisWrapper {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom right, #83bafc, #d2a4ca);
+  background: linear-gradient(to bottom right, white, whitesmoke);
   background-size: cover;
   overflow: hidden;
 }
@@ -29,11 +29,16 @@
 }
 
 .game-title {
-  font-family: "Zen Antique", sans-serif;
-  font-weight: 300;
-  font-size: 36px;
-  margin: 10px;
-  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin: 0;
+}
+
+.game-title span {
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
 }
 
 .HomeButton {
@@ -42,7 +47,6 @@
 
 .container-info-display {
   display: flex;
-
   place-items: center;
   width: 300px;
   height: 500px;
@@ -58,7 +62,7 @@
   position: relative;
   width: 300px;
   height: 500px;
-  background-color: rgba(172, 193, 236, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 0px;
   margin: 0px;
   color: white;
@@ -71,7 +75,7 @@
 }
 
 .hook-info-display {
-  max-width: 100%; /* Ajusta según el tamaño deseado */
+  max-width: 100%;
 }
 
 .message {

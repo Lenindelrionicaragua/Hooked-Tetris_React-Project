@@ -7,17 +7,17 @@ export const StyledDisplay = styled.div`
   justify-content: center;
   margin: 0 0 20px 0;
   padding: 20px;
-  border: 2px solid #white;
+  border: 2px solid rgb(231, 218, 121, 0.8);
   min-height: 30px;
   width: 100%;
   border-radius: 0px;
-  color: white;
+  color: black;
   text-shadow: ${(props) =>
     props.gameOver
-      ? "0 0 10px #D49BC4, 0 0 20px #D7C8E5, 0 0 20px #D7C8E5"
-      : "0 0 5px #ACC1EC, 0 0 10px #4D82DC, 0 0 20px #4D82DC"};
+      ? "0 0 10px #FEFEFE, 0 0 20px #FEFEFE, 0 0 20px #FEFEFE"
+      : "0 0 5px #FEFEFE, 0 0 10px #FEFEFE, 0 0 20px #FEFEFE"};
 
-  background: #acc1ec;
+  background: rgb(254, 254, 254, 0.5);
 
   font-size: 0.8rem;
 `;

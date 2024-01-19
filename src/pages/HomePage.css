@@ -4,7 +4,7 @@ body {
   font-family: "Zen Antique", sans-serif;
   font-weight: 300;
   text-align: center;
-  background: linear-gradient(to bottom right, #83bafc, #d2a4ca);
+  background: linear-gradient(to bottom right, white, whitesmoke);
   min-height: 100vh;
   height: 100vh;
   overflow: auto;
@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: black;
 }
 
 .home-page-container {
@@ -45,8 +45,8 @@ body {
 }
 
 button {
-  background-color: #7c8ad4;
-  color: #fff;
+  background-color: rgb(231, 218, 121);
+  color: black;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-  background-color: #6c7ac3;
+  background-color: rgb(173, 216, 114);
 }
 
 .play-button {
@@ -70,14 +70,13 @@ input {
   margin-bottom: 0px;
   margin-top: 10px;
   font-size: 1.2em;
-
   transition: border-color 0.3s;
-  color: #7c8ad4;
+  color: black;
 }
 
 input::placeholder {
   font-size: 0.8em;
-  color: #acc1ec;
+  color: #000;
 }
 
 input:focus {
@@ -126,14 +125,12 @@ input:not(:placeholder-shown) {
 }
 
 @media only screen and (max-width: 480px) {
-  .intro-paragraph {
-    .game-title {
-      font-size: 2em;
-      text-transform: uppercase;
-    }
+  .game-title {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
 
-    .home-page-title {
-      font-size: 1em;
-    }
+  .home-page-title {
+    font-size: 1em;
   }
 }

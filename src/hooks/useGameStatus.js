@@ -13,7 +13,6 @@ export const useGameStatus = (rowsCleared) => {
     const randomIndex = Math.floor(Math.random() * reactHooksMessages.length);
     const randomMessage = reactHooksMessages[randomIndex]?.content || "";
 
-    // Llama a la función para mostrar el mensaje aleatorio
     console.log("getRandomMessage - Random message:", randomMessage);
 
     return randomMessage;

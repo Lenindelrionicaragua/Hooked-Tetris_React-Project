@@ -8,8 +8,8 @@ export const StyledStartButton = styled.button`
   width: 100%;
   border-radius: 0px;
   border: none;
-  color: white;
-  background-color: #7c8ad4;
+  color: black;
+  background-color: rgb(231, 218, 121);
   font-size: 1rem;
   outline: none;
   cursor: pointer;
@@ -17,6 +17,6 @@ export const StyledStartButton = styled.button`
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #6c7ac3;
+    background-color: rgb(173, 216, 114);
   }
 `;
