@@ -2,7 +2,8 @@
 
 Hooked Tetris is a single-page application aimed at creating an interactive and educational game by combining the classic Tetris with React hooks. The game features a main presentation screen where the player can create their avatar using the DiceBear HTTP API. Upon completing the avatar creation, the player is redirected to the game screen to play Tetris. Eliminating lines in the Tetris game reveals tips and information about various React hooks.
 
-https://hooked-tetris-react-project.vercel.app/
+[`Hooked Tetris`](https://hooked-tetris-react-project.vercel.app/)
+
 
 ![Captura de Pantalla 2024-02-24 a la(s) 20 21 18](https://github.com/Lenindelrionicaragua/Hooked-Tetris_React-Project/assets/142052112/f051727e-d745-434f-a13d-eddb5ceef617)
 ![Captura de Pantalla 2024-02-24 a la(s) 20 21 30](https://github.com/Lenindelrionicaragua/Hooked-Tetris_React-Project/assets/142052112/f492d614-b2d2-4009-905f-090d2cd75f2a)
